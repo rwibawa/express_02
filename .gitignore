@@ -1,0 +1,19 @@
+node_modules/
+public/jspm_packages/
+public/bower_components/
+.idea
+docs
+public/calm/jspm_packages
+dist
+public/styles/*.css
+assets/bower_components
+coverage
+*.jar
+
+# Generic filetypes
+*.log
+*.iml
+report
+target
+my-setenv.sh
+my-set-e2e.sh
