@@ -35,3 +35,21 @@ nodeJS + expressJS exercise
   $  git push heroku master
   $  heroku logs --tail
 ```
+4. Heroku logger
+```bash
+$ heroku addons:create papertrail
+Creating papertrail on ⬢ blooming-castle-19216... free
+Welcome to Papertrail. Questions and ideas are welcome (support@papertrailapp.com). Happy logging!
+Created papertrail-curved-58967 as PAPERTRAIL_API_TOKEN
+Use heroku addons:docs papertrail to view documentation
+SFO1502662077M:express_02 502662077$ heroku addons
+
+Add-on                                Plan     Price  State
+────────────────────────────────────  ───────  ─────  ───────
+papertrail (papertrail-curved-58967)  choklad  free   created
+ └─ as PAPERTRAIL
+
+The table above shows add-ons and the attachments to the current app (blooming-castle-19216) or other apps.
+
+SFO1502662077M:express_02 502662077$ heroku addons:open papertrail
+```
