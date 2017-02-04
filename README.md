@@ -2,6 +2,7 @@
 nodeJS + expressJS exercise
 
 1. Setup
+```bash
   $  mkdir express_02
   $  cd express_02
   $  npm init
@@ -13,8 +14,9 @@ nodeJS + expressJS exercise
   $  vi gulpfile.js
   $  gulp --help
   $  node app.js
-
+```
 2. git
+```bash
   $  git init
   $  git add -A
   $  git status
@@ -25,10 +27,11 @@ nodeJS + expressJS exercise
   $  git remote add origin git@github.com:rwibawa/express_02.git
   $  git remote -v
   $  git push -u origin master
-
-
+```
 3. Heroku
+```bash
   $  heroku login
   $  heroku create
   $  git push heroku master
   $  heroku logs --tail
+```
