@@ -14,6 +14,10 @@ nodeJS + expressJS exercise
   $  vi gulpfile.js
   $  gulp --help
   $  node app.js
+  
+# service calls
+# https://<server>/cool
+# https://<server>/times
 ```
 2. git
 ```bash
@@ -51,5 +55,14 @@ papertrail (papertrail-curved-58967)  choklad  free   created
 
 The table above shows add-ons and the attachments to the current app (blooming-castle-19216) or other apps.
 
-SFO1502662077M:express_02 502662077$ heroku addons:open papertrail
+$ heroku addons:open papertrail
+```
+5. Heroku console
+```bash
+$ heroku run node
+$ heroku run bash
+
+# define env vars
+$ heroku config:set TIMES=11
+$ heroku config
 ```
