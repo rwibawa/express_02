@@ -1,0 +1,11 @@
+{
+  "name": "express_02",
+  "version": "1.0.0",
+  "description": "getting started with expressJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Wibawa <ryan.wibawa@ge.com> (https://employeeprofile.ge.com/employeeprofile/people/502662077)",
+  "license": "ISC"
+}
